@@ -1,0 +1,172 @@
+html {
+  /* width: 100%;
+  display: flex;
+  flex-wrap: wrap; */
+
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 20px;
+
+/* margin-top: 20px;
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden; */
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+@-ms-viewport{
+  width: device-width;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+h1 {
+font-size: 16px;
+font-weight: lighter;
+}
+
+h2 {
+font-size: 16px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+h4 {
+font-size: 13px;
+text-align: center;
+}
+
+p {
+/* font-size: .2em; */
+/* max-width: 100%; */
+/* display: flex;
+flex-wrap: wrap; */
+/* display: inline;
+max-width: 100%;
+display: inline-block;
+z-index: auto; */
+overflow: hidden;
+text-overflow: ellipsis;
+max-width: 100%;
+}
+
+#header {
+  border-bottom: 2px solid grey;
+  /* height: 80px; */
+}
+
+#udacity-logo {
+  width: 70px;
+  height: 70px;
+}
+
+#box-1 {
+  height: 50px;
+  width: 50px;
+  background-color: #02b3e4;
+  float: right;
+}
+
+#box-2 {
+  height: 50px;
+  width: 50px;
+  background-color: #2d3c49;
+  float: right;
+}
+
+#box-3 {
+  height: 50px;
+  width: 50px;
+  background-color: #7d97ad;
+  float: right;
+}
+
+.label {
+  text-align: right;
+  margin-top: 5px;
+  font-weight: lighter;
+  line-height: 1.2em;
+  font-size: 16px;
+}
+
+.name-title {
+  width: 100%;
+  text-align: right;
+  font-weight: lighter;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.name-size {
+  width: 100%;
+  text-align: right;
+  font-size: 35px;
+  font-weight: lighter;
+  /* line-height: 1.2em; */
+}
+
+.side-menu {
+  padding-top: 78px;
+  padding-right: 30px;
+}
+
+.work-alignment {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+.work-alignment-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.work-alignment-3 {
+  padding-left: 15px;
+  padding-right: 0px;
+}
+
+.project-img {
+  height: 120px;
+  width: 50%;
+}
+
+.work-title {
+  font-weight: lighter;
+  padding-left: 5px;
+  width: 100%;
+  font-size: 22px;
+  /* line-height: 1.2em; */
+  color: lightslategrey;
+  font-weight: 400;
+}
+
+.font-1 {
+  line-height: 1.2em;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.font-2 {
+  font-weight: lighter;
+  line-height: 1.2em;
+  font-size: 14px;
+}
+
+.main-photo {
+  height: 240px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
