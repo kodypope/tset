@@ -1,3 +1,8 @@
+/* .container-fluid {
+  padding-right: 4em;
+} */
+
+
 html {
   /* width: 100%;
   display: flex;
@@ -94,6 +99,7 @@ max-width: 100%;
   font-weight: lighter;
   line-height: 1.2em;
   font-size: 16px;
+  padding-left: 0px;
 }
 
 .name-title {
@@ -162,6 +168,7 @@ max-width: 100%;
   font-weight: lighter;
   line-height: 1.2em;
   font-size: 14px;
+  text-align: center;
 }
 
 .main-photo {
